@@ -1,0 +1,9 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+y=a+b+c
+if(y==180):
+	print("yes")
+else:
+	print("no")
